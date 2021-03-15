@@ -3,7 +3,7 @@ import numpy as np
 skip = 0
 face_data = []
 face_section = 0
-dataset = './data'
+dataset = './data/'
 filename = input("Enter the name of the file : ")
 cap = cv2.VideoCapture(0)
 face_cascade=cv2.CascadeClassifier("haarcascade_frontalface_alt.xml")
